@@ -1,5 +1,5 @@
 ## yakshaver2 - Super Yak Shaver II Turbo
-#### Yawning Angel (yawning at torproject dot org)
+#### Yawning Angel (yawning at schwanenlied dot me)
 
 ### What?
 
