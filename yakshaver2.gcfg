@@ -1,0 +1,24 @@
+;
+; yakshaver2.gcfg: Configuration file.
+;
+
+; General settings.
+[general]
+bindAddr = 0.0.0.0:443         # Address for incoming connections
+handshakeTimeout = 10          # Handshake timeout in seconds
+disableLogScrubber = false     # Disable the log scrubber
+
+; Configuration for flows classified as unknown protocol.
+[unknown]
+enabled = true
+proxyAddr = 127.0.0.1:8000
+
+; Configuration for flows classified as TLS.
+[tls]
+enabled = true
+proxyAddr = 127.0.0.1:4433
+
+; Configuration for flows classified as SSH.
+[ssh]
+enabled = false
+proxyAddr = 127.0.0.1:22
